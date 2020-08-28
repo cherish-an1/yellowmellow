@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+    margin: auto;
+}
+.middle {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    transform: translate(-50%, -50%);
+}
+.middle h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.hi {
+    margin-left: 50%;
+}
+.head1 {
+    background-color: white;
+    height: 100%;
+}
+.head1 h3 {
+    text-align: center;
+    font-size: 35px;
+}
+.one {
+    display: flex;
+}
+.one img {
+    width: 30%;
+}
+.one p  {
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.head2 {
+    background-color: #ffbf00;
+}
+.head2 p {
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 17px
+}
+.f1 {
+    display: flex;
+}
+.f1 img {
+    width: 50%;
+    margin: 5px
+}
+button {
+    background-color: #ffbf00;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+button:hover {
+    background-color: black;
+}
+button a:hover {
+    color: #ffbf00;
+}
+.head4 {
+    background-color: #ffbf00;
+    height: 100%;
+}
+.para p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.graph {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.graph ul li {
+    word-spacing: 5px;
+    line-height: 25px;
+    margin: 10px;
+}
+.head5 {
+    margin-left: 20px;
+}
+input[type=submit] {
+    background-color: #ffbf00;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+    width: 50%;
+    margin-bottom: 30px;
+}
+input[type=submit]:hover {
+    background-color: black;
+}
+footer {
+    text-align: center
+}
+@media screen and (min-width: 700px){
+    .middle {
+        top: 50%;
+        left: 50%;
+    }
+    .middle h1 {
+        font-size: 100px;
+    }
+    .head1 h3 {
+        font-size: 50px;
+    }
+    .head1 p {
+        font-size: 50px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .head2 p {
+        text-align: center;
+    }
+    input[type=submit] {
+        width: 30%;
+    }
+}
